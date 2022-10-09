@@ -27,15 +27,15 @@ class Car
     }
     public function setName($name)
     {
-       $this->name = $name;
+    $this->name = $name;
     }
     public function setNumber($number)
     {
-       $this->number = $number;
+    $this->number = $number;
     }
     public function setColor($color)
     {
-       $this->color = $color;
+    $this->color = $color;
     }
 
     public function information()
