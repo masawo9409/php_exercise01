@@ -8,8 +8,8 @@ private $passenger;
 
 public function pickUp($addpassenger)
 {
-   $this->passenger += $addpassenger;
-   return $addpassenger."人乗車しました";
+$this->passenger += $addpassenger;
+return $addpassenger."人乗車しました";
 }
 public function lower($lowpassenger)
 {   
